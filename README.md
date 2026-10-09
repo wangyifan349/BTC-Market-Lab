@@ -18,6 +18,7 @@
 │   ├── BTC_Market_Lab.py
 │   └── README.md
 └── jp/                ← 🇯🇵 日本語（全部日文）
+    ├── BTCマーケットラボ.py
     └── README.md
 ```
 
@@ -34,9 +35,10 @@
 ```bash
 cd zh && python 预测工具.py          # 🇨🇳 中文版（Chinese UI）
 cd en && python BTC_Market_Lab.py   # 🇬🇧 English version
+cd jp && python BTCマーケットラボ.py # 🇯🇵 日本語版（Japanese UI）
 ```
 
-> ✅ 两个程序版本同源：功能与数值完全一致，仅界面语言不同。
+> ✅ 三个语言版本同源：功能与数值完全一致，仅界面语言不同。
 
 > [!CAUTION]
 > **仅供学习与研究使用，不构成投资建议。** 加密货币市场波动极大，请自行承担风险。
