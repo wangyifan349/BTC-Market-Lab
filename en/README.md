@@ -5,7 +5,8 @@
 
 ```text
 📦 This folder (English version): BTC_Market_Lab.py
-🌍 Chinese version lives in: ../zh-CN/预测工具.py
+🌍 Chinese version:    ../zh/ folder
+🌍 Japanese docs:      ../jp/README.md
 ```
 
 > [!CAUTION]
@@ -169,11 +170,11 @@ of the script.
 
 | Problem                      | Solution                                                              |
 |------------------------------|-----------------------------------------------------------------------|
-| 🔴 **"Network: Not connected"** | Start your proxy (v2rayN / Clash…) and click **Retest Network**. Or edit `PROXY_HOST` / `PROXY_PORT`. |
+| 🔴 **"Network: Not connected"** | Start your proxy (v2rayN / Clash...) and click **Retest Network**. Or edit `PROXY_HOST` / `PROXY_PORT`. |
 | ⚠️ **"Data fetch failed"**     | Switch to another source (OKX / CoinGecko) or retry later — APIs can rate-limit. |
 | ❓ **`?` characters in console** | The app prints `R²` / `σ` safely; under a GBK terminal a few glyphs show as `?` — output stays readable. |
 | ⏳ **No data on startup**       | Startup fetch begins ~80 ms after launch; watch the status bar.       |
-| 🌐 **Want a different language?** | Chinese → `../zh-CN/预测工具.py` · Japanese docs → `../ja-JP/README.md`. |
+| 🌐 **Want a different language?** | Chinese version → `../zh/` folder · Japanese docs → `../jp/README.md`. |
 
 ---
 

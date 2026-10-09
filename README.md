@@ -6,18 +6,18 @@
 
 ## 📂 结构 · Structure · 構成
 
-每个语言版本**完全分离**在独立目录中，互不混杂。
+每个语言版本**完全分离**在独立目录中，各目录内只含本语言内容。
 
 ```
 项目4/
 ├── README.md          ← 本索引 · Index
-├── zh-CN/             ← 🇨🇳 中文版（全中文）
+├── zh/                ← 🇨🇳 中文版（全部中文）
 │   ├── 预测工具.py
 │   └── README.md
-├── en/                ← 🇬🇧 English version（pure English）
+├── en/                ← 🇬🇧 English version（pure English，零中文）
 │   ├── BTC_Market_Lab.py
 │   └── README.md
-└── ja-JP/             ← 🇯🇵 日本語（ドキュメント）
+└── jp/                ← 🇯🇵 日本語（全部日文）
     └── README.md
 ```
 
@@ -25,15 +25,15 @@
 
 | 语言 | 目录 / 入口 | 说明 |
 |:---:|:---|:---|
-| 🇨🇳 简体中文 | [zh-CN/README.md](zh-CN/README.md) | 中文版完整文档 |
+| 🇨🇳 简体中文 | [zh/README.md](zh/README.md) | 中文版完整文档 |
 | 🇬🇧 English | [en/README.md](en/README.md) | English documentation |
-| 🇯🇵 日本語 | [ja-JP/README.md](ja-JP/README.md) | 日本語ドキュメント |
+| 🇯🇵 日本語 | [jp/README.md](jp/README.md) | 日本語ドキュメント |
 
 ## 🚀 启动 · Run
 
 ```bash
-cd zh-CN && python 预测工具.py          # 🇨🇳 中文版（Chinese UI）
-cd en && python BTC_Market_Lab.py       # 🇬🇧 English version
+cd zh && python 预测工具.py          # 🇨🇳 中文版（Chinese UI）
+cd en && python BTC_Market_Lab.py   # 🇬🇧 English version
 ```
 
 > ✅ 两个程序版本同源：功能与数值完全一致，仅界面语言不同。
